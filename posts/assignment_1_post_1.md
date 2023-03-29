@@ -6,10 +6,14 @@ disable_html_sanitization: true
 
 # Morphing Idea
 
-[morphing idea](https://p5js.org/examples/motion-morph.html)
+[p5 Example: Morph](https://p5js.org/examples/motion-morph.html)
+
+<iframe src="https://editor.p5js.org/nthnphn/full/DnQ62lkCT"></iframe>
 
 The code above was what inspired me to create the main feature of my net art. 
 As I was scrolling through examples that p5 gives I came across this example of morphing shapes.
 
+When I saw the example of a square morphing into a circle, I came up with an idea on how to incorporate it with effective complexity. And that was to create different random shapes very fast.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3oqzdlEWguA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
