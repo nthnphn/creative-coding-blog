@@ -3,14 +3,14 @@
 import blog, { ga, redirects, h } from "blog";
 
 blog({
-  title: "My Blog",
-  description: "This is my new blog.",
+  title: "Nathan Phan",
+  description: "This is my Creative Coding Blog.",
   // header: <header>Your custom header</header>,
   // section: <section>Your custom section</section>,
   // footer: <footer>Your custom footer</footer>,
-  avatar: "https://deno-avatar.deno.dev/avatar/blog.svg",
+  avatar: "images/profile-picture.png",
   avatarClass: "rounded-full",
-  author: "An author",
+  author: "Nathan Phan",
 
   // middlewares: [
 
