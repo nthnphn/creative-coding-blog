@@ -8,7 +8,7 @@ disable_html_sanitization: true
 
 [p5 Example: Morph](https://p5js.org/examples/motion-morph.html)
 
-<iframe src="https://editor.p5js.org/nthnphn/full/DnQ62lkCT"></iframe>
+<iframe width="400" height="400" src="https://editor.p5js.org/nthnphn/full/DnQ62lkCT"></iframe>
 
 The code above was what inspired me to create the main feature of my net art. 
 As I was scrolling through examples that p5 gives I came across this example of morphing shapes.
@@ -45,7 +45,7 @@ Hence why I decided to make it seem as the differents vertices of the shape I cr
 
 I believe this to be a good example of effective complexity due to how fast the random shapes are being created. However as the shapes only form inside the canvas, it makes the process seem to be controlled as well.
 
-<iframe src="https://editor.p5js.org/nthnphn/full/UkrSdvxXw"></iframe>
+<iframe width="400" height="400" src="https://editor.p5js.org/nthnphn/full/UkrSdvxXw"></iframe>
 
 ```javascript
 // rand_coordinate returns a variable called coordinate which contains a random (x, y) value within the canvas

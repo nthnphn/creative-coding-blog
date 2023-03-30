@@ -8,7 +8,7 @@ disable_html_sanitization: true
 
 [Colour Changing Example](https://editor.p5js.org/hosken/sketches/I_4VSTotf)
 
-<iframe src="https://editor.p5js.org/hosken/full/I_4VSTotf"></iframe>
+<iframe width="400" height="400" src="https://editor.p5js.org/hosken/full/I_4VSTotf"></iframe>
 
 ```javascript
 
@@ -54,7 +54,7 @@ An **if statement** is used to change the colour of "myColour after a certain am
 
 While creating my Net Art, I wanted to incorporate something more than just white shapes forming on a black canvas. So I decided to implement this colour changing function. I believe by adding this, my code is gives a lot more variety then constantly seeing the same thing over and over again. It also becomes more pleasing to watch despite looking very unstable. Which again I think shows a strong demonstration of effective complexity.
 
-<iframe src="https://editor.p5js.org/nthnphn/full/wefBvrx2G"></iframe>
+<iframe width="400" height="400" src="https://editor.p5js.org/nthnphn/full/wefBvrx2G"></iframe>
 
 ```javascript 
 
@@ -64,7 +64,7 @@ let myColour // To keep track of the random color
 function setup () {
    createCanvas (576, 324) // Creates a canvas 
    myColour = color (random(255), random(255), random(255)) // "myColour" is given a random colour
-   frameRate (20) // displays 100 frames in a second
+   frameRate (20) // displays 20 frames in a second
 }
 
 function draw () {
