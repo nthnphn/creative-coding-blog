@@ -1,5 +1,5 @@
 ---
-title: Assignment 1 - Post 2
+title: Assignment 1 - Stage 2
 publish_date: 2023-03-29
 disable_html_sanitization: true
 ---
