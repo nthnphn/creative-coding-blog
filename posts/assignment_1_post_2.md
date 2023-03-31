@@ -52,7 +52,7 @@ An **if statement** is used to change the colour of "myColour after a certain am
 
 ---
 
-While creating my Net Art, I wanted to incorporate something more than just white shapes forming on a black canvas. So I decided to implement this colour changing function. I believe by adding this, my code is gives a lot more variety then constantly seeing the same thing over and over again. It also becomes more pleasing to watch despite looking very unstable. Which again I think shows a strong demonstration of effective complexity.
+While creating my sketch, I wanted to incorporate something more than just white shapes forming on a black canvas. So I decided to implement this colour changing function. I believe by adding this, my code is gives a lot more variety then constantly seeing the same thing over and over again. It also becomes more pleasing to watch despite looking very unstable. Which again I think shows a strong demonstration of effective complexity.
 
 <iframe width="400" height="400" src="https://editor.p5js.org/nthnphn/full/wefBvrx2G"></iframe>
 

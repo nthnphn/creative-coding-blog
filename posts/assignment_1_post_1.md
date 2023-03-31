@@ -10,7 +10,7 @@ disable_html_sanitization: true
 
 <iframe width="400" height="400" src="https://editor.p5js.org/nthnphn/full/DnQ62lkCT"></iframe>
 
-The code above was what inspired me to create the main feature of my net art. 
+The code above was what inspired me to create the main feature of my sketch. 
 As I was scrolling through examples that p5 gives I came across this example of morphing shapes.
 
 When I saw the example of a square morphing into a circle, I came up with an idea on how to incorporate it with effective complexity. And that was to create different random shapes very fast.
