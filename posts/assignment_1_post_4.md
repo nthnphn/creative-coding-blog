@@ -1,6 +1,6 @@
 ---
 title: Assignment 1 - Final Copy
-publish_date: 2023-03-30
+publish_date: 2023-03-31
 disable_html_sanitization: true
 ---
 
@@ -90,7 +90,7 @@ function change_colour () {
 
 ```
 
-<iframe src="https://editor.p5js.org/nthnphn/full/bmQ8_Od1k"></iframe>
+<iframe width="576" height="374" src="https://editor.p5js.org/nthnphn/full/bmQ8_Od1k"></iframe>
 
 Above is the final copy of my code.
 
