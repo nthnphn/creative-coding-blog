@@ -69,3 +69,110 @@ disable_html_sanitization: true
     // call the first frame
     requestAnimationFrame (draw_frame)
 </script>
+
+Above is the an interaction example by Thomas Capogreco. The interaction example he created utilizes the 
+**mouseclick** function on canvas. As the assignment required the use of an audio or interaction feature, I found 
+the **mouseclick** function to be interesting as I began coming up with my ideas on what I could create. The example
+above help me come up with my idea as I wanted to have objects appearing where my mouse was when I clicked down. This 
+inspired me to create a net art where the user can interact with the page to create small objects, which in return 
+when combined create a larger piece of art.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xbdJf9MRL7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+The video above also further helped me improve my understanding on the **onclick** mouse function which was I was able to apply
+in the beginning of my code.
+
+---
+## My Code
+
+```javascript
+onst cnv = document.getElementById ("example1")
+console.dir (cnv)
+
+cnv.width = innerWidth
+cnv.height = innerHeight
+
+// Resize the canvas based on page
+resizeCanvas ()
+window.onresize = resizeCanvas
+
+// Changes the canvas size to the same size as the page
+function resizeCanvas () {
+    cnv.width = innerWidth
+    cnv.height = innerHeight
+}
+
+const coordinates = [];
+function add_coordinate (e) {
+    coordinates.push ({x : e.offsetX, y: e.offsetY})
+}
+cnv.onclick = add_coordinate
+
+const ctx = cnv.getContext ('2d')
+
+requestAnimationFrame (draw_frame)
+
+function draw_frame () {
+
+    ctx.fillStyle = `#2B2D42`
+    ctx.fillRect (0, 0, cnv.width, cnv.height)
+
+    ctx.fillStyle = `#e63946`
+
+    coordinates.forEach (p => {
+
+        ctx.fillRect (p.x - 10, p.y - 10, 20, 20)
+    })
+
+    requestAnimationFrame (draw_frame)
+}
+
+requestAnimationFrame (draw_frame)
+```
+
+<canvas id=example1></canvas>
+
+<script type=module>
+const cnv = document.getElementById ("example1")
+console.dir (cnv)
+
+cnv.width = cnv.parentNode.scrollWidth
+cnv.height = cnv.width * 9 / 16
+
+// Resize the canvas based on page
+// resizeCanvas ()
+// window.onresize = resizeCanvas
+
+// // Changes the canvas size to the same size as the page
+// function resizeCanvas () {
+//     cnv.width = innerWidth560
+//     cnv.height = innerHeight
+// }
+
+const coordinates = [];
+function add_coordinate (e) {
+    coordinates.push ({x : e.offsetX, y: e.offsetY})
+}
+cnv.onclick = add_coordinate
+
+const ctx = cnv.getContext ('2d')
+
+requestAnimationFrame (draw_frame)
+
+function draw_frame () {
+
+    ctx.fillStyle = `#2B2D42`
+    ctx.fillRect (0, 0, cnv.width, cnv.height)
+
+    ctx.fillStyle = `#e63946`
+
+    coordinates.forEach (p => {
+
+        ctx.fillRect (p.x - 10, p.y - 10, 20, 20)
+    })
+
+    requestAnimationFrame (draw_frame)
+}
+
+requestAnimationFrame (draw_frame)
+</script>
