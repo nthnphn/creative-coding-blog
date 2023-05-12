@@ -1,5 +1,5 @@
 ---
-title: Assignment 1 - Final Copy
+title: Assignment 1 - Final Stage
 publish_date: 2023-03-31
 disable_html_sanitization: true
 ---

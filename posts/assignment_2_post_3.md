@@ -1,6 +1,6 @@
 ---
 title: Assignment 2 - Stage 3
-publish_date: 2023-05-12
+publish_date: 2023-05-11
 disable_html_sanitization: true
 ---
 
@@ -51,8 +51,6 @@ to the idea of "effective complexity" as it seem to make the art a little more
 <canvas id=net_art></canvas>
 
 <script type=module>
-    document.body.style.margin   = 0
-    document.body.style.overflow = "hidden"
 
     const cnv = document.getElementById ("net_art")
     console.dir (cnv)
