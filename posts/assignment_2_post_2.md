@@ -1,6 +1,6 @@
 ---
 title: Assignment 2 - Stage 2
-publish_date: 2023-05-12
+publish_date: 2023-05-11
 disable_html_sanitization: true
 ---
 
@@ -55,7 +55,7 @@ effective complexity.
 ---
 ## My Code
 
-<canvas id="example2"></canvas>
+<!-- <canvas id="example2"></canvas>
 
 <script type=module>
     document.body.style.margin   = 0
@@ -114,4 +114,9 @@ effective complexity.
     cnv.onclick = add_coordinate
 
     const ctx = cnv.getContext ('2d')
-</script>
+</script> -->
+
+Above is my code after implementing my onclick function. As showcased, when clicked on
+the background a random square appears. However the squares change after every click 
+when a new square is added. This was done accidentally but I really liked the idea as
+it introduced more variety into my net art.
